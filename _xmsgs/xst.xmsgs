@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Lab7</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/Lab7.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/Lab7.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Lab7/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/Lab7.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/Lab7.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/charmem</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/charmemory.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/charmemory.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/charmem/behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/charmemory.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/charmemory.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/chargen</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/char_gen.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/char_gen.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/chargen/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/char_gen.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/char_gen.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Cursor_Control</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/Cursor_Control.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/Cursor_Control.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Cursor_Control/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/Cursor_Control.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/Cursor_Control.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/clock_ctrl</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/DCM.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/DCM.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/clock_ctrl/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/DCM.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/DCM.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/VGA</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/H_V_SYNC.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/H_V_SYNC.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/VGA/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/H_V_SYNC.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/H_V_SYNC.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/PS2</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/PS2.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/PS2.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/PS2/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/PS2.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/PS2.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/receiver</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/receiver.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/receiver.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/receiver/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/receiver.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/receiver.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/scan_ascii</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/scan_ascii.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/scan_ascii.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/scan_ascii/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/scan_ascii.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/scan_ascii.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/transmitter</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/transmitter.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/transmitter.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/transmitter/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/transmitter.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/transmitter.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="new" >&quot;<arg fmt="%s" index="1">//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/charmemory.vhd</arg>&quot; line <arg fmt="%d" index="2">243</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;writec&gt;</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">font&lt;11&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">btn_north</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">btn_east</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">btn_west</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">data4&lt;7&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">TBR_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TSM1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">font_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CGEN</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3226" delta="old" >The RAM &lt;<arg fmt="%s" index="1">Mram_char_ram</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="info" file="Xst" num="3044" delta="old" >The ROM &lt;<arg fmt="%s" index="1">Mrom_ascii_rom0000</arg>&gt; will be implemented as a read-only BLOCK RAM, absorbing the register: &lt;<arg fmt="%s" index="2">ascii</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3225" delta="old" >The RAM &lt;<arg fmt="%s" index="1">Mrom_ascii_rom0000</arg>&gt; will be implemented as BLOCK RAM
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">font_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">chargen</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">TSM1/TBR_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Lab7</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+</messages>
+

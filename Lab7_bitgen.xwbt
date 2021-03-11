@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=Y:\Desktop\3610\Lab1\Lab7\Lab_7\Lab7.ncd
+OUTFILE=Y:\Desktop\3610\Lab1\Lab7\Lab_7\Lab7.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=Y:\Desktop\3610\Lab1\Lab7\Lab_7
+LICENSE=WebPack
+USER_INFO=210863595_0_0_959

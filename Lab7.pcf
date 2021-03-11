@@ -1,0 +1,18 @@
+//! **************************************************************************
+// Written by: Map O.87xd on Fri Oct 20 10:49:18 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "RXD" LOCATE = SITE "R7" LEVEL 1;
+COMP "TXD" LOCATE = SITE "M14" LEVEL 1;
+COMP "PS_2_clk" LOCATE = SITE "G14" LEVEL 1;
+COMP "PS_2" LOCATE = SITE "G13" LEVEL 1;
+COMP "reset" LOCATE = SITE "K17" LEVEL 1;
+COMP "vga_red" LOCATE = SITE "H14" LEVEL 1;
+COMP "CLK_50" LOCATE = SITE "C9" LEVEL 1;
+COMP "vga_green" LOCATE = SITE "H15" LEVEL 1;
+COMP "vga_hsync" LOCATE = SITE "F15" LEVEL 1;
+COMP "vga_vsync" LOCATE = SITE "F14" LEVEL 1;
+COMP "vga_blue" LOCATE = SITE "G15" LEVEL 1;
+SCHEMATIC END;
+

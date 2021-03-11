@@ -1,0 +1,36 @@
+Release 13.4 - xst O.87xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to Y:/Desktop/3610/Lab1/Lab7/Lab_7/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Parameter xsthdpdir set to Y:/Desktop/3610/Lab1/Lab7/Lab_7/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/Cursor_Control.vhd" in Library work.
+Entity <cursor_control> compiled.
+ERROR:HDLParsers:3324 - "//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/Cursor_Control.vhd" Line 38. IN mode Formal SIZE of to_unsigned with no default value must be associated with an actual value.
+ERROR:HDLParsers:3324 - "//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/Cursor_Control.vhd" Line 39. IN mode Formal SIZE of to_unsigned with no default value must be associated with an actual value.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.31 secs
+ 
+--> 
+
+Total memory usage is 205124 kilobytes
+
+Number of errors   :    2 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

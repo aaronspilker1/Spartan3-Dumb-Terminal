@@ -1,0 +1,50 @@
+Running: C:\Xilinx\13.4\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -o Y:/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/Lab7_isim_beh.exe -prj Y:/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/Lab7_beh.prj work.Lab7 
+ISim O.87xd (signature 0x2f00eba5)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "Y:/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/transmitter.vhd" into library work
+Parsing VHDL file "Y:/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/scan_ascii.vhd" into library work
+Parsing VHDL file "Y:/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/receiver.vhd" into library work
+Parsing VHDL file "Y:/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/PS2.vhd" into library work
+Parsing VHDL file "Y:/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/H_V_SYNC.vhd" into library work
+Parsing VHDL file "Y:/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/DCM.vhd" into library work
+Parsing VHDL file "Y:/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/Cursor_Control.vhd" into library work
+Parsing VHDL file "Y:/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/char_gen.vhd" into library work
+Parsing VHDL file "Y:/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/charmemory.vhd" into library work
+Parsing VHDL file "Y:/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/Lab7.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 127832 KB
+Fuse CPU Usage: 904 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling package textio
+Compiling package vital_timing
+Compiling package vital_primitives
+Compiling package vpkg
+Compiling architecture ibufg_v of entity IBUFG [\IBUFG("DONT_CARE","0",true,"DEF...]
+Compiling architecture dcm_sp_clock_divide_by_2_v of entity dcm_sp_clock_divide_by_2 [dcm_sp_clock_divide_by_2_default]
+Compiling architecture dcm_sp_maximum_period_check_v of entity dcm_sp_maximum_period_check [\dcm_sp_maximum_period_check("*"...]
+Compiling architecture dcm_sp_maximum_period_check_v of entity dcm_sp_maximum_period_check [\dcm_sp_maximum_period_check("*"...]
+Compiling architecture dcm_sp_clock_lost_v of entity dcm_sp_clock_lost [dcm_sp_clock_lost_default]
+Compiling architecture dcm_sp_v of entity DCM_SP [\DCM_SP(true,"*",true,false,2.0,...]
+Compiling architecture bufg_v of entity BUFG [bufg_default]
+Compiling architecture behavioral of entity clock_ctrl [clock_ctrl_default]
+Compiling architecture behavioral of entity PS2 [ps2_default]
+Compiling architecture behavioral of entity scan_ascii [scan_ascii_default]
+Compiling architecture behavioral of entity transmitter [transmitter_default]
+Compiling architecture behavioral of entity receiver [receiver_default]
+Compiling architecture behavioral of entity Cursor_Control [cursor_control_default]
+Compiling architecture behavioral of entity charmem [charmem_default]
+Compiling architecture behavioral of entity chargen [chargen_default]
+Compiling architecture behavioral of entity VGA [vga_default]
+Compiling architecture behavioral of entity lab7
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 41 VHDL Units
+Built simulation executable Y:/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/Lab7_isim_beh.exe
+Fuse Memory Usage: 156424 KB
+Fuse CPU Usage: 1856 ms

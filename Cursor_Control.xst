@@ -1,0 +1,5 @@
+set -tmpdir "Y:/Desktop/3610/Lab1/Lab7/Lab_7/xst/projnav.tmp"
+set -xsthdpdir "Y:/Desktop/3610/Lab1/Lab7/Lab_7/xst"
+elaborate
+-ifn Cursor_Control.prj
+-ifmt mixed

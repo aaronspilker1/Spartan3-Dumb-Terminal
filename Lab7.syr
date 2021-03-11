@@ -1,0 +1,859 @@
+Release 13.4 - xst O.87xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.47 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.47 secs
+ 
+--> Reading design: Lab7.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Lab7.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Lab7"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : Lab7
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/Lab7 is now defined in a different file.  It was defined in "//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/Lab7.vhd", and is now defined in "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/Lab7.vhd".
+WARNING:HDLParsers:3607 - Unit work/Lab7/Behavioral is now defined in a different file.  It was defined in "//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/Lab7.vhd", and is now defined in "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/Lab7.vhd".
+WARNING:HDLParsers:3607 - Unit work/charmem is now defined in a different file.  It was defined in "//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/charmemory.vhd", and is now defined in "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/charmemory.vhd".
+WARNING:HDLParsers:3607 - Unit work/charmem/behavioral is now defined in a different file.  It was defined in "//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/charmemory.vhd", and is now defined in "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/charmemory.vhd".
+WARNING:HDLParsers:3607 - Unit work/chargen is now defined in a different file.  It was defined in "//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/char_gen.vhd", and is now defined in "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/char_gen.vhd".
+WARNING:HDLParsers:3607 - Unit work/chargen/Behavioral is now defined in a different file.  It was defined in "//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/char_gen.vhd", and is now defined in "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/char_gen.vhd".
+WARNING:HDLParsers:3607 - Unit work/Cursor_Control is now defined in a different file.  It was defined in "//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/Cursor_Control.vhd", and is now defined in "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/Cursor_Control.vhd".
+WARNING:HDLParsers:3607 - Unit work/Cursor_Control/Behavioral is now defined in a different file.  It was defined in "//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/Cursor_Control.vhd", and is now defined in "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/Cursor_Control.vhd".
+WARNING:HDLParsers:3607 - Unit work/clock_ctrl is now defined in a different file.  It was defined in "//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/DCM.vhd", and is now defined in "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/DCM.vhd".
+WARNING:HDLParsers:3607 - Unit work/clock_ctrl/Behavioral is now defined in a different file.  It was defined in "//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/DCM.vhd", and is now defined in "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/DCM.vhd".
+WARNING:HDLParsers:3607 - Unit work/VGA is now defined in a different file.  It was defined in "//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/H_V_SYNC.vhd", and is now defined in "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/H_V_SYNC.vhd".
+WARNING:HDLParsers:3607 - Unit work/VGA/Behavioral is now defined in a different file.  It was defined in "//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/H_V_SYNC.vhd", and is now defined in "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/H_V_SYNC.vhd".
+WARNING:HDLParsers:3607 - Unit work/PS2 is now defined in a different file.  It was defined in "//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/PS2.vhd", and is now defined in "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/PS2.vhd".
+WARNING:HDLParsers:3607 - Unit work/PS2/Behavioral is now defined in a different file.  It was defined in "//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/PS2.vhd", and is now defined in "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/PS2.vhd".
+WARNING:HDLParsers:3607 - Unit work/receiver is now defined in a different file.  It was defined in "//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/receiver.vhd", and is now defined in "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/receiver.vhd".
+WARNING:HDLParsers:3607 - Unit work/receiver/Behavioral is now defined in a different file.  It was defined in "//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/receiver.vhd", and is now defined in "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/receiver.vhd".
+WARNING:HDLParsers:3607 - Unit work/scan_ascii is now defined in a different file.  It was defined in "//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/scan_ascii.vhd", and is now defined in "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/scan_ascii.vhd".
+WARNING:HDLParsers:3607 - Unit work/scan_ascii/Behavioral is now defined in a different file.  It was defined in "//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/scan_ascii.vhd", and is now defined in "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/scan_ascii.vhd".
+WARNING:HDLParsers:3607 - Unit work/transmitter is now defined in a different file.  It was defined in "//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/transmitter.vhd", and is now defined in "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/transmitter.vhd".
+WARNING:HDLParsers:3607 - Unit work/transmitter/Behavioral is now defined in a different file.  It was defined in "//psf/home/Desktop/3610/Lab1/Lab7/Lab_7/transmitter.vhd", and is now defined in "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/transmitter.vhd".
+Compiling vhdl file "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/DCM.vhd" in Library work.
+Architecture behavioral of Entity clock_ctrl is up to date.
+Compiling vhdl file "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/PS2.vhd" in Library work.
+Architecture behavioral of Entity ps2 is up to date.
+Compiling vhdl file "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/scan_ascii.vhd" in Library work.
+Architecture behavioral of Entity scan_ascii is up to date.
+Compiling vhdl file "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/transmitter.vhd" in Library work.
+Architecture behavioral of Entity transmitter is up to date.
+Compiling vhdl file "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/receiver.vhd" in Library work.
+Architecture behavioral of Entity receiver is up to date.
+Compiling vhdl file "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/Cursor_Control.vhd" in Library work.
+Entity <cursor_control> compiled.
+Entity <cursor_control> (Architecture <behavioral>) compiled.
+Compiling vhdl file "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/charmemory.vhd" in Library work.
+Architecture behavioral of Entity charmem is up to date.
+Compiling vhdl file "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/char_gen.vhd" in Library work.
+Architecture behavioral of Entity chargen is up to date.
+Compiling vhdl file "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/H_V_SYNC.vhd" in Library work.
+Architecture behavioral of Entity vga is up to date.
+Compiling vhdl file "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/Lab7.vhd" in Library work.
+Entity <lab7> compiled.
+Entity <lab7> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Lab7> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <clock_ctrl> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <PS2> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <scan_ascii> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <transmitter> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <receiver> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Cursor_Control> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <charmem> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <chargen> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <VGA> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Lab7> in library <work> (Architecture <behavioral>).
+Entity <Lab7> analyzed. Unit <Lab7> generated.
+
+Analyzing Entity <clock_ctrl> in library <work> (Architecture <behavioral>).
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IBUFG_inst> in unit <clock_ctrl>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IBUFG_inst> in unit <clock_ctrl>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IBUFG_inst> in unit <clock_ctrl>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <IBUFG_inst> in unit <clock_ctrl>.
+    Set user-defined property "CLKDV_DIVIDE =  2.0000000000000000" for instance <DCM_SP_inst> in unit <clock_ctrl>.
+    Set user-defined property "CLKFX_DIVIDE =  10" for instance <DCM_SP_inst> in unit <clock_ctrl>.
+    Set user-defined property "CLKFX_MULTIPLY =  13" for instance <DCM_SP_inst> in unit <clock_ctrl>.
+    Set user-defined property "CLKIN_DIVIDE_BY_2 =  FALSE" for instance <DCM_SP_inst> in unit <clock_ctrl>.
+    Set user-defined property "CLKIN_PERIOD =  20.0000000000000000" for instance <DCM_SP_inst> in unit <clock_ctrl>.
+    Set user-defined property "CLKOUT_PHASE_SHIFT =  NONE" for instance <DCM_SP_inst> in unit <clock_ctrl>.
+    Set user-defined property "CLK_FEEDBACK =  1X" for instance <DCM_SP_inst> in unit <clock_ctrl>.
+    Set user-defined property "DESKEW_ADJUST =  SYSTEM_SYNCHRONOUS" for instance <DCM_SP_inst> in unit <clock_ctrl>.
+    Set user-defined property "DFS_FREQUENCY_MODE =  LOW" for instance <DCM_SP_inst> in unit <clock_ctrl>.
+    Set user-defined property "DLL_FREQUENCY_MODE =  LOW" for instance <DCM_SP_inst> in unit <clock_ctrl>.
+    Set user-defined property "DSS_MODE =  NONE" for instance <DCM_SP_inst> in unit <clock_ctrl>.
+    Set user-defined property "DUTY_CYCLE_CORRECTION =  TRUE" for instance <DCM_SP_inst> in unit <clock_ctrl>.
+    Set user-defined property "FACTORY_JF =  C080" for instance <DCM_SP_inst> in unit <clock_ctrl>.
+    Set user-defined property "PHASE_SHIFT =  0" for instance <DCM_SP_inst> in unit <clock_ctrl>.
+    Set user-defined property "STARTUP_WAIT =  FALSE" for instance <DCM_SP_inst> in unit <clock_ctrl>.
+Entity <clock_ctrl> analyzed. Unit <clock_ctrl> generated.
+
+Analyzing Entity <PS2> in library <work> (Architecture <behavioral>).
+Entity <PS2> analyzed. Unit <PS2> generated.
+
+Analyzing Entity <scan_ascii> in library <work> (Architecture <behavioral>).
+Entity <scan_ascii> analyzed. Unit <scan_ascii> generated.
+
+Analyzing Entity <transmitter> in library <work> (Architecture <behavioral>).
+Entity <transmitter> analyzed. Unit <transmitter> generated.
+
+Analyzing Entity <receiver> in library <work> (Architecture <behavioral>).
+Entity <receiver> analyzed. Unit <receiver> generated.
+
+Analyzing Entity <Cursor_Control> in library <work> (Architecture <behavioral>).
+Entity <Cursor_Control> analyzed. Unit <Cursor_Control> generated.
+
+Analyzing Entity <charmem> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/charmemory.vhd" line 243: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <writec>
+Entity <charmem> analyzed. Unit <charmem> generated.
+
+Analyzing Entity <chargen> in library <work> (Architecture <behavioral>).
+Entity <chargen> analyzed. Unit <chargen> generated.
+
+Analyzing Entity <VGA> in library <work> (Architecture <behavioral>).
+Entity <VGA> analyzed. Unit <VGA> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <PS2>.
+    Related source file is "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/PS2.vhd".
+    Found finite state machine <FSM_0> for signal <cur>.
+    -----------------------------------------------------------------------
+    | States             | 12                                             |
+    | Transitions        | 23                                             |
+    | Inputs             | 1                                              |
+    | Outputs            | 1                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | idle                                           |
+    | Power Up State     | idle                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit register for signal <clean_PS2_clk>.
+    Found 6-bit updown counter for signal <count>.
+    Found 1-bit register for signal <PS2_clk2>.
+    Found 10-bit register for signal <Q>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 Counter(s).
+	inferred  12 D-type flip-flop(s).
+Unit <PS2> synthesized.
+
+
+Synthesizing Unit <scan_ascii>.
+    Related source file is "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/scan_ascii.vhd".
+    Found 1024x7-bit ROM for signal <ascii$rom0000> created at line 104.
+    Found 7-bit register for signal <ascii>.
+    Found 1-bit register for signal <ctrl>.
+    Found 1-bit register for signal <cur<0>>.
+    Found 1-bit register for signal <shift>.
+    Found 1-bit register for signal <smap>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  11 D-type flip-flop(s).
+Unit <scan_ascii> synthesized.
+
+
+Synthesizing Unit <transmitter>.
+    Related source file is "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/transmitter.vhd".
+    Found finite state machine <FSM_1> for signal <cur>.
+    -----------------------------------------------------------------------
+    | States             | 11                                             |
+    | Transitions        | 22                                             |
+    | Inputs             | 2                                              |
+    | Outputs            | 11                                             |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | idle                                           |
+    | Power Up State     | idle                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit register for signal <full>.
+    Found 13-bit down counter for signal <Q>.
+    Found 8-bit register for signal <TBR>.
+    Found 9-bit register for signal <TSR>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 Counter(s).
+	inferred  18 D-type flip-flop(s).
+Unit <transmitter> synthesized.
+
+
+Synthesizing Unit <receiver>.
+    Related source file is "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/receiver.vhd".
+    Found finite state machine <FSM_2> for signal <cur>.
+    -----------------------------------------------------------------------
+    | States             | 12                                             |
+    | Transitions        | 26                                             |
+    | Inputs             | 2                                              |
+    | Outputs            | 12                                             |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | idle                                           |
+    | Power Up State     | idle                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 13-bit down counter for signal <Q>.
+    Found 8-bit register for signal <Qp>.
+    Found 1-bit register for signal <s>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 Counter(s).
+	inferred   9 D-type flip-flop(s).
+Unit <receiver> synthesized.
+
+
+Synthesizing Unit <Cursor_Control>.
+    Related source file is "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/Cursor_Control.vhd".
+    Found 7-bit register for signal <cursor_col>.
+    Found 7-bit addsub for signal <cursor_col$share0000> created at line 70.
+    Found 6-bit register for signal <cursor_row>.
+    Found 6-bit adder for signal <cursor_row$addsub0000> created at line 53.
+    Summary:
+	inferred  13 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+Unit <Cursor_Control> synthesized.
+
+
+Synthesizing Unit <charmem>.
+    Related source file is "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/charmemory.vhd".
+    Found 8192x7-bit dual-port RAM <Mram_char_ram> for signal <char_ram>.
+    Found finite state machine <FSM_3> for signal <cur>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 7                                              |
+    | Inputs             | 3                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Power Up State     | idle                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 7-bit register for signal <out1>.
+    Found 7-bit register for signal <data_out>.
+    Found 7-bit down counter for signal <seq_col>.
+    Found 6-bit down counter for signal <seq_row>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 RAM(s).
+	inferred   2 Counter(s).
+	inferred  14 D-type flip-flop(s).
+Unit <charmem> synthesized.
+
+
+Synthesizing Unit <chargen>.
+    Related source file is "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/char_gen.vhd".
+WARNING:Xst:646 - Signal <font<11>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 2048x12-bit ROM for signal <font$rom0000> created at line 209.
+    Found 7-bit register for signal <col>.
+    Found 7-bit adder for signal <col$addsub0000> created at line 194.
+    Found 4-bit up counter for signal <count>.
+    Found 12-bit register for signal <font>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred  19 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <chargen> synthesized.
+
+
+Synthesizing Unit <VGA>.
+    Related source file is "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/H_V_SYNC.vhd".
+    Found 1-bit register for signal <vsync>.
+    Found 1-bit register for signal <hsync>.
+    Found 1-bit register for signal <hblank>.
+    Found 11-bit up counter for signal <hcount>.
+    Found 1-bit register for signal <vblank>.
+    Found 10-bit up counter for signal <vcount>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred   4 D-type flip-flop(s).
+Unit <VGA> synthesized.
+
+
+Synthesizing Unit <clock_ctrl>.
+    Related source file is "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/DCM.vhd".
+Unit <clock_ctrl> synthesized.
+
+
+Synthesizing Unit <Lab7>.
+    Related source file is "//psf/home/Documents/School/Fall 2015/3610/Lab1/Lab7/Lab_7/Lab7.vhd".
+WARNING:Xst:647 - Input <btn_north> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <btn_east> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <btn_west> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:646 - Signal <data4<7>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 7-bit subtractor for signal <blinker$addsub0000> created at line 130.
+    Found 6-bit comparator equal for signal <blinker$cmp_eq0000> created at line 130.
+    Found 7-bit comparator equal for signal <blinker$cmp_eq0001> created at line 130.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   2 Comparator(s).
+Unit <Lab7> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 8192x7-bit dual-port RAM                              : 1
+# ROMs                                                 : 2
+ 1024x7-bit ROM                                        : 1
+ 2048x12-bit ROM                                       : 1
+# Adders/Subtractors                                   : 4
+ 6-bit adder                                           : 1
+ 7-bit adder                                           : 1
+ 7-bit addsub                                          : 1
+ 7-bit subtractor                                      : 1
+# Counters                                             : 8
+ 10-bit up counter                                     : 1
+ 11-bit up counter                                     : 1
+ 13-bit down counter                                   : 2
+ 4-bit up counter                                      : 1
+ 6-bit down counter                                    : 1
+ 6-bit updown counter                                  : 1
+ 7-bit down counter                                    : 1
+# Registers                                            : 23
+ 1-bit register                                        : 12
+ 10-bit register                                       : 1
+ 12-bit register                                       : 1
+ 6-bit register                                        : 1
+ 7-bit register                                        : 5
+ 8-bit register                                        : 2
+ 9-bit register                                        : 1
+# Comparators                                          : 2
+ 6-bit comparator equal                                : 1
+ 7-bit comparator equal                                : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_3> for best encoding.
+Optimizing FSM <CHEM/cur/FSM> on signal <cur[1:2]> with user encoding.
+-----------------------
+ State     | Encoding
+-----------------------
+ idle      | 00
+ scrolling | 01
+ clearing  | 10
+-----------------------
+Analyzing FSM <FSM_2> for best encoding.
+Optimizing FSM <RCV1/cur/FSM> on signal <cur[1:4]> with gray encoding.
+-----------------------
+ State     | Encoding
+-----------------------
+ idle      | 0000
+ start_bit | 0001
+ b0        | 0011
+ b1        | 0010
+ b2        | 0110
+ b3        | 0111
+ b4        | 0101
+ b5        | 0100
+ b6        | 1100
+ b7        | 1101
+ stop_bit  | 1111
+ frame_err | 1110
+-----------------------
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <TSM1/cur/FSM> on signal <cur[1:11]> with one-hot encoding.
+--------------------------
+ State     | Encoding
+--------------------------
+ idle      | 00000000001
+ start_bit | 00000000010
+ b0        | 00000000100
+ b1        | 00000001000
+ b2        | 00000010000
+ b3        | 00000100000
+ b4        | 00001000000
+ b5        | 00010000000
+ b6        | 00100000000
+ b7        | 01000000000
+ stop_bit  | 10000000000
+--------------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <PS21/cur/FSM> on signal <cur[1:4]> with user encoding.
+-----------------------
+ State     | Encoding
+-----------------------
+ idle      | 0000
+ b0        | 0001
+ b1        | 0010
+ b2        | 0011
+ b3        | 0100
+ b4        | 0101
+ b5        | 0110
+ b6        | 0111
+ b7        | 1000
+ parity    | 1001
+ wait_stop | 1010
+ wait_go   | 1011
+-----------------------
+WARNING:Xst:1710 - FF/Latch <TBR_7> (without init value) has a constant value of 0 in block <TSM1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <font_11> of sequential type is unconnected in block <CGEN>.
+
+Synthesizing (advanced) Unit <charmem>.
+INFO:Xst:3226 - The RAM <Mram_char_ram> will be implemented as a BLOCK RAM, absorbing the following register(s): <data_out> <out1>
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 8192-word x 7-bit                   |          |
+    |     mode           | read-first                          |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to signal <we>            | high     |
+    |     addrA          | connected to signal <col>           |          |
+    |     diA            | connected to signal <data_in>       |          |
+    |     doA            | connected to signal <data_out>      |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 8192-word x 7-bit                   |          |
+    |     mode           | write-first                         |          |
+    |     clkB           | connected to signal <clk>           | rise     |
+    |     addrB          | connected to signal <col1>          |          |
+    |     doB            | connected to signal <out1>          |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <charmem> synthesized (advanced).
+
+Synthesizing (advanced) Unit <scan_ascii>.
+INFO:Xst:3044 - The ROM <Mrom_ascii_rom0000> will be implemented as a read-only BLOCK RAM, absorbing the register: <ascii>.
+INFO:Xst:3225 - The RAM <Mrom_ascii_rom0000> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 1024-word x 7-bit                   |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <pdata_I>       |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <ascii>         |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <scan_ascii> synthesized (advanced).
+WARNING:Xst:2677 - Node <font_11> of sequential type is unconnected in block <chargen>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 4
+# RAMs                                                 : 2
+ 1024x7-bit single-port block RAM                      : 1
+ 8192x7-bit dual-port block RAM                        : 1
+# ROMs                                                 : 1
+ 2048x12-bit ROM                                       : 1
+# Adders/Subtractors                                   : 4
+ 6-bit adder                                           : 1
+ 7-bit adder                                           : 1
+ 7-bit addsub                                          : 1
+ 7-bit subtractor                                      : 1
+# Counters                                             : 8
+ 10-bit up counter                                     : 1
+ 11-bit up counter                                     : 1
+ 13-bit down counter                                   : 2
+ 4-bit up counter                                      : 1
+ 6-bit down counter                                    : 1
+ 6-bit updown counter                                  : 1
+ 7-bit down counter                                    : 1
+# Registers                                            : 78
+ Flip-Flops                                            : 78
+# Comparators                                          : 2
+ 6-bit comparator equal                                : 1
+ 7-bit comparator equal                                : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Lab7> ...
+
+Optimizing unit <PS2> ...
+
+Optimizing unit <scan_ascii> ...
+
+Optimizing unit <transmitter> ...
+
+Optimizing unit <receiver> ...
+
+Optimizing unit <Cursor_Control> ...
+
+Optimizing unit <charmem> ...
+
+Optimizing unit <chargen> ...
+
+Optimizing unit <VGA> ...
+WARNING:Xst:1710 - FF/Latch <TSM1/TBR_7> (without init value) has a constant value of 0 in block <Lab7>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Lab7, actual ratio is 11.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 168
+ Flip-Flops                                            : 168
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Lab7.ngr
+Top Level Output File Name         : Lab7
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 14
+
+Cell Usage :
+# BELS                             : 1245
+#      GND                         : 1
+#      INV                         : 32
+#      LUT1                        : 22
+#      LUT2                        : 47
+#      LUT2_D                      : 1
+#      LUT2_L                      : 1
+#      LUT3                        : 259
+#      LUT3_D                      : 10
+#      LUT3_L                      : 7
+#      LUT4                        : 454
+#      LUT4_D                      : 30
+#      LUT4_L                      : 19
+#      MUXCY                       : 43
+#      MUXF5                       : 193
+#      MUXF6                       : 57
+#      MUXF7                       : 17
+#      MUXF8                       : 4
+#      VCC                         : 1
+#      XORCY                       : 47
+# FlipFlops/Latches                : 168
+#      FD                          : 11
+#      FDC                         : 20
+#      FDCE                        : 33
+#      FDE                         : 17
+#      FDP                         : 3
+#      FDPE                        : 15
+#      FDR                         : 13
+#      FDRE                        : 24
+#      FDRS                        : 4
+#      FDS                         : 19
+#      FDSE                        : 9
+# RAMS                             : 5
+#      RAMB16_S1_S1                : 1
+#      RAMB16_S2_S2                : 3
+#      RAMB16_S9                   : 1
+# Clock Buffers                    : 1
+#      BUFG                        : 1
+# IO Buffers                       : 11
+#      IBUF                        : 4
+#      IBUFG                       : 1
+#      OBUF                        : 6
+# DCMs                             : 1
+#      DCM_SP                      : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                      467  out of   4656    10%  
+ Number of Slice Flip Flops:            168  out of   9312     1%  
+ Number of 4 input LUTs:                882  out of   9312     9%  
+ Number of IOs:                          14
+ Number of bonded IOBs:                  11  out of    232     4%  
+ Number of BRAMs:                         5  out of     20    25%  
+ Number of GCLKs:                         1  out of     24     4%  
+ Number of DCMs:                          1  out of      4    25%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK_50                             | clk1/DCM_SP_inst:CLKFX | 173   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+reset                              | IBUF                   | 71    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 14.313ns (Maximum Frequency: 69.866MHz)
+   Minimum input arrival time before clock: 6.715ns
+   Maximum output required time after clock: 12.010ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK_50'
+  Clock period: 14.313ns (frequency: 69.866MHz)
+  Total number of paths / destination ports: 9864 / 451
+-------------------------------------------------------------------------
+Delay:               11.010ns (Levels of Logic = 8)
+  Source:            CHEM/Mram_char_ram1 (RAM)
+  Destination:       CGEN/font_8 (FF)
+  Source Clock:      CLK_50 rising 1.3X
+  Destination Clock: CLK_50 rising 1.3X
+
+  Data Path: CHEM/Mram_char_ram1 to CGEN/font_8
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAMB16_S2_S2:CLKB->DOB0  320   2.800   1.388  CHEM/Mram_char_ram1 (data5<0>)
+     LUT3:I2->O            1   0.704   0.499  CGEN/Mrom_font_rom00003911_19 (CGEN/Mrom_font_rom00003911_19)
+     LUT3:I1->O            1   0.704   0.000  CGEN/ascii<2>16_G (N226)
+     MUXF5:I1->O           1   0.321   0.455  CGEN/ascii<2>16 (CGEN/ascii<2>25)
+     LUT3:I2->O            1   0.704   0.000  CGEN/Mrom_font_rom00003911_7_f5_F (N231)
+     MUXF5:I0->O           2   0.321   0.622  CGEN/Mrom_font_rom00003911_7_f5 (CGEN/Mrom_font_rom00003911_7_f5)
+     LUT4:I0->O            1   0.704   0.000  CGEN/Mrom_font_rom00003911_3_F (N335)
+     MUXF5:I0->O           1   0.321   0.420  CGEN/Mrom_font_rom00003911_3 (CGEN/Mrom_font_rom00003911_3)
+     MUXF5:S->O            1   0.739   0.000  CGEN/font_mux0001<8>1 (CGEN/font_mux0001<8>)
+     FD:D                      0.308          CGEN/font_8
+    ----------------------------------------
+    Total                     11.010ns (7.626ns logic, 3.384ns route)
+                                       (69.3% logic, 30.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK_50'
+  Total number of paths / destination ports: 48 / 23
+-------------------------------------------------------------------------
+Offset:              6.715ns (Levels of Logic = 5)
+  Source:            PS_2_clk (PAD)
+  Destination:       PS21/count_4 (FF)
+  Destination Clock: CLK_50 rising 1.3X
+
+  Data Path: PS_2_clk to PS21/count_4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   1.218   0.666  PS_2_clk_IBUF (PS_2_clk_IBUF)
+     LUT4:I1->O            7   0.704   0.743  PS21/count_and0000 (PS21/count_and0000)
+     LUT3:I2->O            2   0.704   0.447  PS21/Mcount_count_xor<4>11 (PS21/N01)
+     MUXF5:S->O            2   0.739   0.482  PS21/Mcount_count_xor<4>13_f5 (PS21/N6)
+     LUT3:I2->O            1   0.704   0.000  PS21/Mcount_count_xor<4>12 (PS21/Result<4>)
+     FDPE:D                    0.308          PS21/count_4
+    ----------------------------------------
+    Total                      6.715ns (4.377ns logic, 2.338ns route)
+                                       (65.2% logic, 34.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK_50'
+  Total number of paths / destination ports: 74 / 6
+-------------------------------------------------------------------------
+Offset:              12.010ns (Levels of Logic = 7)
+  Source:            CGEN/col_3 (FF)
+  Destination:       vga_green (PAD)
+  Source Clock:      CLK_50 rising 1.3X
+
+  Data Path: CGEN/col_3 to vga_green
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            13   0.591   1.158  CGEN/col_3 (CGEN/col_3)
+     LUT3:I0->O            1   0.704   0.424  vga_green210_SW0_SW0 (N327)
+     LUT4:I3->O            1   0.704   0.499  vga_green210_SW0 (N295)
+     LUT4:I1->O            1   0.704   0.499  vga_green210 (vga_green210)
+     LUT3:I1->O            1   0.704   0.499  vga_green341 (vga_green341)
+     LUT4:I1->O            1   0.704   0.424  vga_green364_SW0 (N331)
+     LUT4:I3->O            1   0.704   0.420  vga_green364 (vga_green_OBUF)
+     OBUF:I->O                 3.272          vga_green_OBUF (vga_green)
+    ----------------------------------------
+    Total                     12.010ns (8.087ns logic, 3.923ns route)
+                                       (67.3% logic, 32.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 29.00 secs
+Total CPU time to Xst completion: 29.01 secs
+ 
+--> 
+
+Total memory usage is 243476 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   30 (   0 filtered)
+Number of infos    :    4 (   0 filtered)
+
